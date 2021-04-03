@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 70%;
+    padding: 30px;
+    margin: auto;  /* for centering this div*/
+    background-color: powderblue;
+}
+.container h1,h4{
+    text-align: center;
+    margin-bottom: 8px;
+}
+input{
+    width: 80%;
+    margin: 8px 10%;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 7px;
+}
+p{
+    width: 80%;
+    margin-top: 7px;
+    margin-left: 10%;
+    font-size: 20px;
+}
+/* form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.btn{
+    color: cornsilk;
+    background-color: rgb(4, 4, 75);
+    padding: 10px;
+    margin-left: 80%;
+    font-size: 15px;
+    border: cornsilk solid 3px;
+    border-radius: 7px;
+}
